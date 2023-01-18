@@ -1,0 +1,46 @@
+#1 Check if the first and last number of a list is the same
+
+num = [10, 20, 30, 10]
+if num[0] == num[-1]:
+     print("True")
+else:
+     print("False")
+
+
+#2  Display numbers divisible by 5 from a list
+
+num = [3, 4, 5, 54, 55]
+for i in range(5):
+    if num[i]%5 == 0:
+        print(num[i])
+
+
+#3  Return the count of a given substring from a string
+
+str_x = "Emma is good developer, Emma is a writer"
+n = str_x.split(" ")
+print(n)
+y = 0
+for i in range(len(n)):
+    if n[i] == "Emma":
+       y = y+1
+print(y)
+
+
+#4  Check Palindrome Number
+
+Str_x = input("enter a string")
+Str_y = Str_x(::-1)
+if Str_x == Str_y:
+   print("Is a palindrome")
+else:
+   print("not a palindrome")
+
+
+#5  Write a Program to extract each digit from an integer in the reverse order.
+
+num = "123456"
+n = -1
+for i in range(len(num)):
+    print(num[n],end=" ")
+    n = n-1
