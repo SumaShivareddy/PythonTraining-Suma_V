@@ -6,7 +6,7 @@ if num[0] == num[-1]:
 else:
      print("False")
 
-
+-------------------------------------------------------------------------------
 #2  Display numbers divisible by 5 from a list
 
 num = [3, 4, 5, 54, 55]
@@ -14,7 +14,7 @@ for i in range(5):
     if num[i]%5 == 0:
         print(num[i])
 
-
+-------------------------------------------------------------------------------
 #3  Return the count of a given substring from a string
 
 str_x = "Emma is good developer, Emma is a writer"
@@ -26,7 +26,7 @@ for i in range(len(n)):
        y = y+1
 print(y)
 
-
+-------------------------------------------------------------------------------
 #4  Check Palindrome Number
 
 Str_x = input("enter a string")
@@ -36,7 +36,7 @@ if Str_x == Str_y:
 else:
    print("not a palindrome")
 
-
+------------------------------------------------------------------------------
 #5  Write a Program to extract each digit from an integer in the reverse order.
 
 num = "123456"
