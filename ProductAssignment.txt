@@ -1,6 +1,6 @@
 import mysql.connector
 
-mydb = mysql.connector.connect(host = "localhost", user = "root", passwd = "rps@123", database = "kpmg")
+mydb = mysql.connector.connect(host = "localhost", user = "root", password = "rps@123", database = "kpmg")
 
 mycursor = mydb.cursor()
 
@@ -58,4 +58,4 @@ elif option == 4:
 elif option == 5:
     displayall()
 else:
-    print("Invalid Option!! Try Again")
+    print("Please enter the valid option")
